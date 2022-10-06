@@ -11,10 +11,15 @@
     <title>UU</title>
 </head>
 <body>
+    <a href="#hovedinnhold" class="snarvei">Hopp Til hovedinnhold</a>
     <div class="container">
         <!--Navigering-->
         <nav>
             <h4 id="logo"><a href="#">Logo</a></h4>
+            <form>
+            <input type="search" name="search" placeholder="Søk....">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
             <ul>
                 <li><a href="#">Nyheter</a></li>
                 <li><a href="#">Salg</a></li>
@@ -147,6 +152,18 @@
             </section>
             <section>
                 <h4>Kontakt oss</h4>
+                <form method="get" action="#">
+                    <label for="name">Ditt Navn:</label>
+                    <input type="text" name="fname" placeholder="Navn" id="name">
+                    <label for="mail">E-post:</label>
+                    <input type="email" name="mail" placeholder="E-post" id="mail">
+                    <label for="tlf">TLF.Nr:</label>
+                    <input type="tel" name="tlf" placeholder="Nummer" id="tlf">
+                    <label for="mld">Melding:</label>
+                    <textarea placeholder="Skriv inn din melding" id="mld"></textarea>
+                    <input type="submit" value="JAJA">
+
+                </form>
             </section>
         </div>
     </footer>
